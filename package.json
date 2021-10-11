@@ -1,0 +1,28 @@
+{
+  "name": "custom-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --no-notify --respawn --transpile-only src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.2.1",
+    "apollo-server": "3.3.0",
+    "graphql": "15.6.1",
+    "graphql-scalars": "1.11.1",
+    "node-bigcommerce": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/graphql": "14.5.0",
+    "@types/node": "14.17.21",
+    "@types/ws": "7.4.7",
+    "prisma": "3.2.1",
+    "ts-node": "10.2.1",
+    "ts-node-dev": "1.1.8",
+    "typescript": "4.4.3"
+  }
+}
